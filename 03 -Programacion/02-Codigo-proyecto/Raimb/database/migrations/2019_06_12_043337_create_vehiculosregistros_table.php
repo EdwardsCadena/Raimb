@@ -14,10 +14,10 @@ class CreateVehiculosregistrosTable extends Migration
     public function up()
     {
         Schema::create('vehiculosregistros', function (Blueprint $table) {
-            $table->string('IdVehiculo_Registro',12)->unsigned();
-            $table->integer('IdRegistro_Registro')->unsigned();
-            $table->foreign('IdVehiculo_Registro')->references('IdVehiculos')->on('vehiculos');
-            $table->foreign('IdRegistro_Registro')->references('IdRegistros')->on('registros');
+            $table->string('FkVehiculoRegistro',12);
+            $table->integer('FkRegistroRegistro')->unsigned();
+            $table->foreign('FkVehiculoRegistro')->references('IdVehiculos')->on('vehiculos');
+            $table->foreign('FkRegistroRegistro')->references('IdRegistros')->on('registros');
             $table->timestamps();
         });
     }

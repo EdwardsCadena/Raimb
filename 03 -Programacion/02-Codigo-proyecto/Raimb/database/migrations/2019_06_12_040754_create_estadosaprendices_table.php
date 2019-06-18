@@ -15,7 +15,7 @@ class CreateEstadosaprendicesTable extends Migration
     {
         Schema::create('estadosaprendices', function (Blueprint $table) {
             $table->increments('IdEstados');
-            $table->string('Tipo_Estado',25);
+            $table->string('TipoEstado',25);
             $table->timestamps();
         });
     }

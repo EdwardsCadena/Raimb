@@ -15,7 +15,7 @@ class CreateConteoparqueaderoTable extends Migration
     {
         Schema::create('conteoparqueadero', function (Blueprint $table) {
             $table->increments('Idlugarparqueadero');
-            $table->char('IdVehiculo_Cp',12);
+            $table->char('IdVehiculoCp',12);
             $table->timestamps();
         });
     }

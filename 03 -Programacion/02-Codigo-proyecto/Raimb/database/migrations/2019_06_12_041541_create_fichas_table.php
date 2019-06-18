@@ -15,9 +15,9 @@ class CreateFichasTable extends Migration
     {
         Schema::create('fichas', function (Blueprint $table) {
             $table->increments('IdFichas');
-            $table->string('Numero_Ficha',55);
-            $table->integer('IdPrograma_Ficha')->unsigned();
-            $table->foreign('IdPrograma_Ficha')->references('IdProgramas')->on('programas');
+            $table->string('NumeroFicha',55);
+            $table->integer('FkProgramaFicha')->unsigned();
+            $table->foreign('FkProgramaFicha')->references('IdProgramas')->on('programas');
             $table->timestamps();
         });
     }

@@ -14,9 +14,10 @@ class CreateBahiasTable extends Migration
     public function up()
     {
         Schema::create('bahias', function (Blueprint $table) {
-            $table->string('Id_Bahia',55);
-            $table->integer('Cnatidad_Bahias');
-            $table->integer('Numerador_Bahias');
+            $table->string('IdBahia',55);
+            $table->integer('CnatidadBahias');
+            $table->integer('NumeradorBahias');
+            $table->primary('IdBahia');
             $table->timestamps();
         });
     }

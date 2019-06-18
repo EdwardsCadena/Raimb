@@ -14,10 +14,11 @@ class CreateRegistrosTable extends Migration
     public function up()
     {
         Schema::create('registros', function (Blueprint $table) {
-            $table->integer('IdRegistros');
-            $table->dateTime('Fecha_Hora_Ingreso');
-            $table->dateTime('Fecha_Hora_Salida');
-            $table->integer('Id_Cupo_Registro');
+            $table->increments('IdRegistros');
+            $table->dateTime('FechaHoraIngreso');
+            $table->dateTime('FechaHoraSalida');
+            $table->integer('FkCupoRegistro')->unsigned();
+            $table->foreign('FkCupoRegistro')->references('IdCupos')->on('cupos');
             $table->timestamps();
         });
     }

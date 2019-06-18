@@ -14,14 +14,16 @@ class CreateVehiculosTable extends Migration
     public function up()
     {
         Schema::create('vehiculos', function (Blueprint $table) {
-            $table->string('IdVehiculos',12)->primary();
+            $table->char('IdVehiculos',12)->primary();
             $table->string('ColorVehiculo',55);
-            $table->char('IdNumeIden_Vehiculo',12)->unsigned();
-            $table->integer('IdModelo_Vehiculo')->unsigned();
-            $table->integer('IdMarca_Vehiculo')->unsigned();
-            $table->foreign('IdNumeIden_Vehiculo')->references('IdNumeIden')->on('usuarios');
-            $table->foreign('IdModelo_Vehiculo')->references('IdModelosVehiculos')->on('modelosvehiculos');
-            $table->foreign('IdMarca_Vehiculo')->references('IdMarcasVehiculos')->on('marcasvehiculos');
+            $table->char('FkNumeIdenVehiculo',12);
+            $table->integer('FkModeloVehiculo')->unsigned();
+            $table->integer('FkMarcaVehiculo')->unsigned();
+            $table->integer('FkClaseVehiculo')->unsigned();
+            $table->foreign('FkClaseVehiculo')->references('IdClasesvehiculos')->on('clasesvehiculos');
+            $table->foreign('FkNumeIdenVehiculo')->references('IdNumeIden')->on('usuarios');
+            $table->foreign('FkModeloVehiculo')->references('IdModelosVehiculos')->on('modelosvehiculos');
+            $table->foreign('FkMarcaVehiculo')->references('IdMarcasVehiculos')->on('marcasvehiculos');
             $table->timestamps();
         });
     }

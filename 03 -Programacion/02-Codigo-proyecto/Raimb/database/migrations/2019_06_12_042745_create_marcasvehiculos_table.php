@@ -15,7 +15,7 @@ class CreateMarcasvehiculosTable extends Migration
     {
         Schema::create('marcasvehiculos', function (Blueprint $table) {
             $table->increments('IdMarcasVehiculos');
-            $table->string('Nombre_Marca',55);
+            $table->string('NombreMarca',55);
             $table->timestamps();
         });
     }

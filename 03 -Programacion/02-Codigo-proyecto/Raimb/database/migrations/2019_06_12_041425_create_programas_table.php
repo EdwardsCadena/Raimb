@@ -15,9 +15,9 @@ class CreateProgramasTable extends Migration
     {
         Schema::create('programas', function (Blueprint $table) {
             $table->increments('IdProgramas');
-            $table->string('Nombre_Programa',55);
-            $table->integer('IdEspecilidad_Programa')->unsigned();
-            $table->foreign('IdEspecilidad_Programa')->references('IdEspecialidades')->on('especialidades');
+            $table->string('NombrePrograma',55);
+            $table->integer('FkEspecilidadPrograma')->unsigned();
+            $table->foreign('FkEspecilidadPrograma')->references('IdEspecialidades')->on('especialidades');
             $table->timestamps();
         });
     }

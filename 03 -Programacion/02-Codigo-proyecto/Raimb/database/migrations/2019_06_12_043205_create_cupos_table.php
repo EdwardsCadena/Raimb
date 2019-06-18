@@ -14,9 +14,10 @@ class CreateCuposTable extends Migration
     public function up()
     {
         Schema::create('cupos', function (Blueprint $table) {
-            $table->integer('Id_Cupos');
+            $table->increments('IdCupos');
             $table->boolean('Estado');
-            $table->string('Id_Bahia_Cupo',55);
+            $table->string('FkBahiaCupo',55);
+            $table->foreign('FkBahiaCupo')->references('IdBahia')->on('bahias');
             $table->timestamps();
         });
     }

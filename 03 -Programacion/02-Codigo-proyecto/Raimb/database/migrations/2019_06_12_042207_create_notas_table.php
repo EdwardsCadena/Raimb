@@ -16,9 +16,9 @@ class CreateNotasTable extends Migration
         Schema::create('notas', function (Blueprint $table) {
             $table->increments('Id_Notas');
             $table->text('Comentario');
-            $table->char('IdNumeIden_Nota',12)->unsigned();
-            $table->foreign('IdNumeIden_Nota')->references('IdNumeIden')->on('usuarios');
+            $table->char('FkNumeIdenNota',12);
             $table->timestamps();
+            $table->foreign('FkNumeIdenNota')->references('IdNumeIden')->on('usuarios');
         });
     }
 
