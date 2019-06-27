@@ -19,6 +19,7 @@ class CreateVehiculosregistrosTable extends Migration
             $table->foreign('FkVehiculoRegistro')->references('IdVehiculos')->on('vehiculos');
             $table->foreign('FkRegistroRegistro')->references('IdRegistros')->on('registros');
             $table->timestamps();
+            $table->primary(['FkVehiculoRegistro','FkRegistroRegistro']);
         });
     }
 

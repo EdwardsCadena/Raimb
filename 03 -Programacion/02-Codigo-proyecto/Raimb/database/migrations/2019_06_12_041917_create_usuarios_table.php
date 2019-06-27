@@ -32,7 +32,7 @@ class CreateUsuariosTable extends Migration
             $table->foreign('FkEstadoUsuario')->references('IdEstados')->on('estadosaprendices');
             $table->foreign('FkFichaUsuario')->references('IdFichas')->on('fichas');
             $table->timestamps();
-            $table->primary(['IdNumeIden','FkEstadoUsuario']);
+            $table->primary(['IdNumeIden','FkCodRolUsuario','FkTipoDcUsuario']);
         });
     }
 

@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login.login');
 });
+//Route::get('/',["as"=>"route.login","uses"=>""]);

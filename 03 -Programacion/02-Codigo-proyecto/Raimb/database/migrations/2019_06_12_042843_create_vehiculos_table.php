@@ -25,6 +25,7 @@ class CreateVehiculosTable extends Migration
             $table->foreign('FkModeloVehiculo')->references('IdModelosVehiculos')->on('modelosvehiculos');
             $table->foreign('FkMarcaVehiculo')->references('IdMarcasVehiculos')->on('marcasvehiculos');
             $table->timestamps();
+
         });
     }
 
