@@ -269,6 +269,7 @@
                 <h2 class="ui  header" style="text-align: center">Informacion de Bahias</h2>
                 <div class="ui hidden divider"></div>
 
+
             </div>
 
             <div class="ui four wide column">
@@ -279,7 +280,19 @@
 
             <div class="ui four wide column">
                 <h3 class="ui green header" style="text-align: left">Bahias Disponibles:</h3>
+                <div class="ui hidden divider"></div>
+
             </div>
+
+            <div class="ui four wide column">
+                <h3 class="ui red header" style="text-align: left">Usuarios con mas tiempo:</h3>
+            </div>
+
+
+            <div class="ui two wide column">
+            <img class="ui big image" src="/img/logoSENA.jpg">
+            </div>
+
         </div>
 
         <div class=" ui ten wide column">
@@ -450,6 +463,7 @@
                 </div>
             </div>
 
+
             <div class="ui raised blue segment">
                 <div class="ui comments">
                     <div class="comment">
@@ -474,12 +488,6 @@
             </div>
         </div>
     </div>
-    <div class="ui buttons">
-            <div class="ui toggle button">
-                <button class=" ui inverted green big button">Moto C</button>
-            </div>
-    </div>
-
 </div>
 
 
