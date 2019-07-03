@@ -1,21 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.5/dist/semantic.min.css">
-    <script type = "text / javascript" src = "https://www.gstatic.com/charts/loader.js" > </script> <script type = "text / javascript" > google . gráficos . load ( 'current' , { packages : [ 'corechart' ]}); google . gráficos . setOnLoadCallback ( drawChart ); ... </script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+@extends('layaout.layaout')
+@include('layaout.navbar')
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.js"></script>
-    <script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
-
-</head>
-<body>
+@section('content')
+<br>
 <div class="ui stackable grid centered ">
     <div class="ui center segment">
         <div class="ui grid">
@@ -24,227 +11,227 @@
             </div>
 
 
-                <div class="four column row">
-                    <div class="one column row">
-                        <h1>A</h1>
-                        <div class="column">
-                                <div class="ui buttons" >
-                                    <div class="ui toggle button">
-                                    <button class=" ui inverted green large button" >Moto A</button>
-                                    </div>
-                                    <div class="ui toggle button">
-                                        <button class="ui inverted green large button">Moto A</button>
-                                    </div>
-                                </div>
-                        </div>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button" >Moto A</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class="ui inverted green large button">Moto A</button>
-                                </div>
+            <div class="four column row">
+                <div class="one column row">
+                    <h1>A</h1>
+                    <div class="column">
+                        <div class="ui buttons" >
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button" >Moto A</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class="ui inverted green large button">Moto A</button>
                             </div>
                         </div>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button" >Moto A</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class="ui inverted green large button">Moto A</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button" >Moto A</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class="ui inverted green large button">Moto A</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button" >Moto A</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class="ui inverted green large button">Moto A</button>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
-
-
-                    <div class="one column row">
-                        <h1>B</h1>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto B</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto B</button>
-                                </div>
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button" >Moto A</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class="ui inverted green large button">Moto A</button>
                             </div>
                         </div>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto B</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto B</button>
-                                </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button" >Moto A</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class="ui inverted green large button">Moto A</button>
                             </div>
                         </div>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto B</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto B</button>
-                                </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button" >Moto A</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class="ui inverted green large button">Moto A</button>
                             </div>
                         </div>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto B</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto B</button>
-                                </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button" >Moto A</button>
                             </div>
-                        </div>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto B</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto B</button>
-                                </div>
+                            <div class="ui toggle button">
+                                <button class="ui inverted green large button">Moto A</button>
                             </div>
                         </div>
                     </div>
 
+                </div>
 
-                    <div class="one column row">
-                        <h1>C</h1>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto C</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green large button">Moto C</button>
-                                </div>
-                            </div>
-                        </div>
+
+                <div class="one column row">
+                    <h1>B</h1>
+                    <div class="column">
                         <div class="ui buttons">
                             <div class="ui toggle button">
-                                <button class=" ui inverted green large button">Moto C</button>
+                                <button class=" ui inverted green large button">Moto B</button>
                             </div>
                             <div class="ui toggle button">
-                                <button class=" ui inverted green large button">Moto C</button>
-                            </div>
-                        </div>
-                        <div class="ui buttons">
-                            <div class="ui toggle button">
-                                <button class=" ui inverted green large button">Moto C</button>
-                            </div>
-                            <div class="ui toggle button">
-                                <button class=" ui inverted green large button">Moto C</button>
-                            </div>
-                        </div>
-                        <div class="ui buttons">
-                            <div class="ui toggle button">
-                                <button class=" ui inverted green large button">Moto C</button>
-                            </div>
-                            <div class="ui toggle button">
-                                <button class=" ui inverted green large button">Moto C</button>
-                            </div>
-                        </div>
-                        <div class="ui buttons">
-                            <div class="ui toggle button">
-                                <button class=" ui inverted green large button">Moto C</button>
-                            </div>
-                            <div class="ui toggle button">
-                                <button class=" ui inverted green large button">Moto C</button>
+                                <button class=" ui inverted green large button">Moto B</button>
                             </div>
                         </div>
                     </div>
-
-                    <div class="one column row">
-                        <h2>Bicis</h2>
-
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green small button">Bicicleta</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green small button">Bicicleta</button>
-
-                                </div>
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button">Moto B</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button">Moto B</button>
                             </div>
                         </div>
-                        <div class="column">
-
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green small button">Bicicleta</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green small button">Bicicleta</button>
-
-                                </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button">Moto B</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button">Moto B</button>
                             </div>
                         </div>
-                        <div class="column">
-
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green small button">Bicicleta</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green small button">Bicicleta</button>
-
-                                </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button">Moto B</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button">Moto B</button>
                             </div>
                         </div>
-                        <div class="column">
-
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green small button">Bicicleta</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green small button">Bicicleta</button>
-
-                                </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button">Moto B</button>
                             </div>
-                        </div>
-                        <div class="column">
-                            <div class="ui buttons">
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green small button">Bicicleta</button>
-                                </div>
-                                <div class="ui toggle button">
-                                    <button class=" ui inverted green small button">Bicicleta</button>
-
-                                </div>
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button">Moto B</button>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+                <div class="one column row">
+                    <h1>C</h1>
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button">Moto C</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green large button">Moto C</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui buttons">
+                        <div class="ui toggle button">
+                            <button class=" ui inverted green large button">Moto C</button>
+                        </div>
+                        <div class="ui toggle button">
+                            <button class=" ui inverted green large button">Moto C</button>
+                        </div>
+                    </div>
+                    <div class="ui buttons">
+                        <div class="ui toggle button">
+                            <button class=" ui inverted green large button">Moto C</button>
+                        </div>
+                        <div class="ui toggle button">
+                            <button class=" ui inverted green large button">Moto C</button>
+                        </div>
+                    </div>
+                    <div class="ui buttons">
+                        <div class="ui toggle button">
+                            <button class=" ui inverted green large button">Moto C</button>
+                        </div>
+                        <div class="ui toggle button">
+                            <button class=" ui inverted green large button">Moto C</button>
+                        </div>
+                    </div>
+                    <div class="ui buttons">
+                        <div class="ui toggle button">
+                            <button class=" ui inverted green large button">Moto C</button>
+                        </div>
+                        <div class="ui toggle button">
+                            <button class=" ui inverted green large button">Moto C</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="one column row">
+                    <h2>Bicis</h2>
+
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green small button">Bicicleta</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green small button">Bicicleta</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green small button">Bicicleta</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green small button">Bicicleta</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green small button">Bicicleta</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green small button">Bicicleta</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green small button">Bicicleta</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green small button">Bicicleta</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui buttons">
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green small button">Bicicleta</button>
+                            </div>
+                            <div class="ui toggle button">
+                                <button class=" ui inverted green small button">Bicicleta</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
@@ -290,7 +277,7 @@
 
 
             <div class="ui two wide column">
-            <img class="ui big image" src="/img/logoSENA.jpg">
+                <img class="ui big image" src="/img/logoSENA.jpg">
             </div>
 
         </div>
@@ -335,7 +322,6 @@
         <div class="ui hidden divider"></div>
         <h1 class="ui header" style="text-align: center">Comentarios</h1>
     </div>
-
     <div class="ui stackable grid container">
         <div class="ui seven wide column">
             <div class="ui hidden divider">
@@ -468,7 +454,7 @@
                 <div class="ui comments">
                     <div class="comment">
                         <a class="avatar">
-                            <img src="img/selador.jpg">
+                            <img class="ui miny image" src="img/selador.jpg">
                         </a>
                         <div class="content">
                             <a class="author">Administrador 2</a>
@@ -491,7 +477,7 @@
 </div>
 
 
-</body>
+
 <script type="text/javascript" src="js/graficoTorta1.js"></script>
 <script type="text/javascript" src="js/controlColorBotones.js"></script>
 <script type="text/javascript" src="js/graficoTorta2.js"></script>
@@ -499,4 +485,4 @@
 <script type="text/javascript" src="js/graficoBarras2.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.5/dist/semantic.min.js"></script>
 
-</html>
+@stop
