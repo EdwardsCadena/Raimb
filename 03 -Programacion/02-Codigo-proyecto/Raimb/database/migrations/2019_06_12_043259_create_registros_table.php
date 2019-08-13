@@ -14,7 +14,7 @@ class CreateRegistrosTable extends Migration
     public function up()
     {
         Schema::create('registros', function (Blueprint $table) {
-            $table->increments('IdRegistros');
+            $table->increments('IdRegistros')->unique();
             $table->dateTime('FechaHoraIngreso');
             $table->dateTime('FechaHoraSalida');
             $table->integer('FkCupoRegistro')->unsigned();

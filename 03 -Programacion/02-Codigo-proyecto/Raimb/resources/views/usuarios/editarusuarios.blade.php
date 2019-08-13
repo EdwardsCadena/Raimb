@@ -12,8 +12,8 @@
                 <table class="ui inverted grey table">
                     <thead>
                     <tr>
-                        <th>documento</th>
-                        <th>tipodocumento</th>
+                        <th>Documento</th>
+                        <th>Tipo documento</th>
                         <th>Nombre</th>
                         <th>Apellido</th>
                         <th>Direccion</th>

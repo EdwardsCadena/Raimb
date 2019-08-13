@@ -14,7 +14,7 @@ class CreateVehiculosTable extends Migration
     public function up()
     {
         Schema::create('vehiculos', function (Blueprint $table) {
-            $table->char('IdVehiculos',12)->primary();
+            $table->char('IdVehiculos',12)->primary()->unique();
             $table->string('ColorVehiculo',55);
             $table->char('FkNumeIdenVehiculo',12);
             $table->integer('FkModeloVehiculo')->unsigned();
@@ -25,7 +25,6 @@ class CreateVehiculosTable extends Migration
             $table->foreign('FkModeloVehiculo')->references('IdModelosVehiculos')->on('modelosvehiculos');
             $table->foreign('FkMarcaVehiculo')->references('IdMarcasVehiculos')->on('marcasvehiculos');
             $table->timestamps();
-
         });
     }
 
