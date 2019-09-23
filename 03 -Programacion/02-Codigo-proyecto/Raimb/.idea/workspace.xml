@@ -20,6 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -114,7 +115,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -124,12 +125,17 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\Raimb\03 -Programacion\02-Codigo-proyecto\Raimb\public\img" />
       <recent name="C:\Users\venta\Documents\repositorios\Raimb\03 -Programacion\02-Codigo-proyecto\Raimb\public" />
       <recent name="C:\Users\venta\Documents\repositorios\Raimb\03 -Programacion\02-Codigo-proyecto\Raimb\resources\views" />
       <recent name="C:\Users\venta\Documents\repositorios\Raimb\03 -Programacion\02-Codigo-proyecto\Raimb\database\migrations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\Raimb\03 -Programacion\02-Codigo-proyecto\Raimb\resources\views\auth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,7 +176,33 @@
       <workItem from="1562161140747" duration="9039000" />
       <workItem from="1565636740130" duration="1209000" />
       <workItem from="1565637974200" duration="4792000" />
-      <workItem from="1565723370724" duration="1896000" />
+      <workItem from="1565723370724" duration="6966000" />
+      <workItem from="1565731069451" duration="100000" />
+      <workItem from="1565731197983" duration="1403000" />
+      <workItem from="1565732795878" duration="1498000" />
+      <workItem from="1565787734517" duration="9146000" />
+      <workItem from="1565878200160" duration="4923000" />
+      <workItem from="1565903936660" duration="8000" />
+      <workItem from="1565904130177" duration="424000" />
+      <workItem from="1565973171175" duration="86000" />
+      <workItem from="1566320384201" duration="7000" />
+      <workItem from="1566592189495" duration="1259000" />
+      <workItem from="1566937987378" duration="988000" />
+      <workItem from="1567096425813" duration="1326000" />
+      <workItem from="1567112965814" duration="13000" />
+      <workItem from="1567170456038" duration="4680000" />
+      <workItem from="1567428156979" duration="10590000" />
+      <workItem from="1567453117130" duration="3798000" />
+      <workItem from="1567538715387" duration="2177000" />
+      <workItem from="1567618580235" duration="14000" />
+      <workItem from="1567634034063" duration="7000" />
+      <workItem from="1568035881521" duration="14655000" />
+      <workItem from="1568145580942" duration="21000" />
+      <workItem from="1568146568726" duration="19000" />
+      <workItem from="1568210159578" duration="14000" />
+      <workItem from="1568212143626" duration="203000" />
+      <workItem from="1568236737348" duration="2580000" />
+      <workItem from="1568302312172" duration="244000" />
     </task>
     <servers />
   </component>

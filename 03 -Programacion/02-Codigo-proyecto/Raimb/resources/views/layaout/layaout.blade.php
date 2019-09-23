@@ -36,7 +36,7 @@
             $('.ui.segment')
                 .transition({
                     animation: 'drop in',
-                    duration: '0.8s',
+                    duration: '0.2s',
                     onComplete: function() {
                         $('.ui.bottom.attached.button')
                             .removeClass('hidden');
@@ -75,7 +75,7 @@
                 });
             });
         $('#click_me').click(function(){
-            $('.ui.modal').modal("show");
+            $('.ui.basic.vertical.modal').modal("show");
         });
     });
 </script>

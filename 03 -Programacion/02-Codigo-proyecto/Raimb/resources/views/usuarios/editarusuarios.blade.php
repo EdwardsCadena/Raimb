@@ -53,10 +53,8 @@
         </div>
     </div>
 </div>
-<div class="ui container">
-    <div class="ui modal">
-        <i class="close icon red"></i>
-        <br>
+
+<div class="ui basic vertical modal">
         <div class="ui grid stackable center aligned page">
             <div class="row">
                 <div class="ui six wide column ">
@@ -126,7 +124,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </div>
 
 

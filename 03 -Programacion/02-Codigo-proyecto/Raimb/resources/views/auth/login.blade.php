@@ -7,29 +7,30 @@
                     <div class='content'>
                         <h2 class='ui center aligned icon header'>
                         <i class='circular inverted inverted teal users icon '></i>
-
                             Iniciar Sesión
                         </h2>
                     </div>
 
-                    <form class='ui form' action="{{route('route.index')}}">
+                    <form class='ui form' action="{{route('route.autentificacion')}}" method="post">
+                        {{csrf_field()}}
+
                         <div class='field required'>
                             <label>
                                 Cargo
                             </label>
-                            <select name="Rol" class="ui large button center">
-                                <option>Soporte</option>
-                                <option>AdministradorMaster</option>
-                                <option>Administrador</option>
+                            <select name="FkCodRolUsuario" class="ui large button center">
+                                @foreach($roles as $rol)
+                                    <option value="{{$rol -> IdRoles}}">{{ $rol ->TipoRol }}</option>
+                                @endforeach
                             </select>
                         </div>
                         <div class='field required'>
                             <label>
-                                Correo
+                                Usuario
                             </label>
                             <div class='ui left icon input'>
-                                <input  type='email'>
-                                <i class="grey at icon"></i>
+                                <input  type='text' name="UserName" placeholder="Ingrese su usuario">
+                                <i class="user icon"></i>
                             </div>
                         </div>
                         <div class='field required'>
@@ -37,7 +38,7 @@
                                 Contraseña
                             </label>
                             <div class="ui left icon input">
-                                <input  type='password'>
+                                <input  type='password' name="Contraseña" placeholder="Ingrese su contraseña">
                                 <i class="grey lock icon"></i>
                             </div>
                         </div>

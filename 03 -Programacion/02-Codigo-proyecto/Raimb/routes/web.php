@@ -12,7 +12,7 @@
 */
 
 
-Route::get('/',["as"=>"route.login","uses"=>"HomeController@login"]);
+Route::get('/',["as"=>"route.login","uses"=>"Auth\LoginController@inicio"]);
 Route::get('/parking',["as"=>"route.index","uses"=>"HomeController@index"]);
 Route::get('/rol',["as"=>"route.rol","uses"=>"HomeController@roles"]);
 Route::get('/clasevehiculos',["as"=>"route.clasevehiculos","uses"=>"HomeController@clasevehiculos"]);
@@ -26,5 +26,8 @@ Route::get('/documento',["as"=>"route.documento","uses"=>"HomeController@documen
 Route::get('/usuario/eliminar',["as"=>"route.usuarioeli","uses"=>"HomeController@usuarioeli"]);
 Route::get('/usuario/crear',["as"=>"route.crearusu","uses"=>"HomeController@crearusu"]);
 Route::get('/usuario-edita',["as"=>"route.Editarusu","uses"=>"HomeController@Editarusu"]);
+Route::get('/contactos',["as"=>"route.Contactos","uses"=>"HomeController@Contactenos"]);
+Route::get('/tutoriales',["as"=>"route.Tutorial","uses"=>"HomeController@Tutoriales"]);
 
+Route::post('/login',["as"=>"route.autentificacion","uses"=>"Auth\LoginController@login"]);
 

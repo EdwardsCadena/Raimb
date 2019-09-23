@@ -8,7 +8,7 @@
         <div class="menu">
             <div class="header">Usuarios</div>
             <a href="{{route('route.crearusu')}}" class="item"><i class="id card icon"></i>Crear Usuario</a>
-            <a href="{{route('route.Editarusu')}}" class="item"><i class="euser edit icon"></i>Editar Usuario</a>
+            <a href="{{route('route.Editarusu')}}" class="item"><i class="user edit icon"></i>Editar Usuario</a>
             <a href="{{route('route.usuarioeli')}}" class="item"><i class="trash alternate outline icon"></i>Eliminar Usuario</a>
         </div>
     </div>
@@ -33,14 +33,14 @@
         <strong>Tutoriales</strong>
         <div class="menu">
             <div class="header">Manejo del aplicativo</div>
-            <a href=""  class="item"><i class="video icon"></i>Tutoriales</a>
+            <a href="{{route('route.Tutorial')}}"  class="item"><i class="video icon"></i>Tutoriales</a>
         </div>
     </div>
     <div class="ui inverted simple dropdown item">
         <strong>Contactos</strong>
         <div class="menu">
             <div class="header">Emergencia</div>
-            <a href="" class="item"><i class="phone square icon"></i>Contactos Emergencias</a>
+            <a href="{{route('route.Contactos')}}" class="item"><i class="phone square icon"></i>Contactos Emergencias</a>
         </div>
     </div>
     <div class="ui inverted right simple dropdown item">

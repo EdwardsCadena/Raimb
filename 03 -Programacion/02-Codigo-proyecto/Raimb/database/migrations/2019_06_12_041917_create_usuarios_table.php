@@ -13,7 +13,7 @@ class CreateUsuariosTable extends Migration
      */
     public function up()
     {
-        Schema::create('usuarios', function (Blueprint $table) {
+        Schema::create('users', function (Blueprint $table) {
             $table->integer('FkCodRolUsuario')->unsigned();
             $table->integer('FkTipoDcUsuario')->unsigned();
             $table->char('IdNumeIden',12)->unique();

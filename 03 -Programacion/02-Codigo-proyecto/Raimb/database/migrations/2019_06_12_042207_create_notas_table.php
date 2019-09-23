@@ -18,7 +18,7 @@ class CreateNotasTable extends Migration
             $table->text('Comentario');
             $table->char('FkNumeIdenNota',12);
             $table->timestamps();
-            $table->foreign('FkNumeIdenNota')->references('IdNumeIden')->on('usuarios');
+            $table->foreign('FkNumeIdenNota')->references('IdNumeIden')->on('users');
         });
     }
 

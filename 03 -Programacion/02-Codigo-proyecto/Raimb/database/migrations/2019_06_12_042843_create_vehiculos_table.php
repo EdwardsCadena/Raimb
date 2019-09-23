@@ -21,7 +21,7 @@ class CreateVehiculosTable extends Migration
             $table->integer('FkMarcaVehiculo')->unsigned();
             $table->integer('FkClaseVehiculo')->unsigned();
             $table->foreign('FkClaseVehiculo')->references('IdClasesvehiculos')->on('clasesvehiculos');
-            $table->foreign('FkNumeIdenVehiculo')->references('IdNumeIden')->on('usuarios');
+            $table->foreign('FkNumeIdenVehiculo')->references('IdNumeIden')->on('users');
             $table->foreign('FkModeloVehiculo')->references('IdModelosVehiculos')->on('modelosvehiculos');
             $table->foreign('FkMarcaVehiculo')->references('IdMarcasVehiculos')->on('marcasvehiculos');
             $table->timestamps();
