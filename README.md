@@ -42,7 +42,7 @@ un registro de ingreso y salida nulo.
 
 Autores
 ------------------------------------------
-- Alfredo Correa Narvaez
+-  Alfredo Correa Narvaez
 - _Edward Armando Rodríguez Cadena_
 - Edinson Andrés De Armas Malaver
 
