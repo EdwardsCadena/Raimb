@@ -1,14 +1,14 @@
 REGISTRO AUTOMATIZADO DE INGRESO DE MOTOCICLETAS Y BICICLETAS
 ========================================================
-## _RAIMB_
+## RAIMB
 
 -----------------------------
 
 Descripcion
 ---------------------
 
-Este es un proyecto para controlar el ingreso y salida de vehiculos 
-para tener un control y evitar el desorden del parquedero 
+  Este es un proyecto para controlar el ingreso y salida de vehiculos 
+  para tener un control y evitar el desorden del parquedero 
 
 **OBJETIVOS**
 ---------------------------
